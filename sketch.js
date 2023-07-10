@@ -80,6 +80,7 @@ function preload() {
 
 function menu() {
   clear();
+  somGOver.stop();
   if(!musicaPlay) {
     musicaSuspense.loop();
     musicaPlay = true;
@@ -888,7 +889,6 @@ function stopMusic() {
   musicaFase1.stop();
   somTiro.stop();
   somInimigo.stop();
-  somGOver.stop();
   somDeath.stop();
   musicaFase2.stop();
   musicaFase3.stop();
