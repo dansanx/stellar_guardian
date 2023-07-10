@@ -1511,6 +1511,8 @@ function barraLife() {
         textSize(70);
         text('♡', 10, 10);  
     } if(life==0) {
+        musicaPlay = false;
+        somGOverPlay = false;
         estado = 4; 
     }
   }  
